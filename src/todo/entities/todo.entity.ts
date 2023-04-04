@@ -16,4 +16,10 @@ export class TodoEntity implements Todo {
 
   @ApiProperty()
   user: string;
+
+  @ApiProperty()
+  createdAt: Date;
+
+  @ApiProperty()
+  updatedAt: Date;
 }
